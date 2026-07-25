@@ -169,4 +169,3 @@ pytest --cov=app --cov-report=term-missing
 
 **Exceções de domínio customizadas** — `NotFoundError`, `AlreadyExistsError`, `InvalidCredentialsError` são lançadas pelos serviços e traduzidas para HTTP codes pelas rotas. A camada HTTP não vaza para o domínio.
 
-## Contribuindo
